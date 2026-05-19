@@ -2,7 +2,7 @@ import "./globals.css";
 
 export const metadata = {
   title: "Best Price Sildenafil Thailand",
-  description: "ED medication information and price comparison in Thailand.",
+  description: "ED medication information in Thailand",
 };
 
 export default function RootLayout({
