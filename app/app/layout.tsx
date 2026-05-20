@@ -1,8 +1,9 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Best Price Sildenafil Thailand",
-  description: "ED medication information in Thailand",
+  title: "Thailand ED Medication Guide",
+  description:
+    "Guide articles about sildenafil, Viagra, Cialis, Sidegra and pharmacy questions in Thailand.",
 };
 
 export default function RootLayout({
