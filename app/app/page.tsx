@@ -90,9 +90,9 @@ export default function Home() {
                 url: "#",
               },
               {
-                title: "Sildenafil / Sidegra",
-                url: "#",
-              },
+  title: "Sildenafil / Sidegra",
+  url: "/app/sildenafil-sidegra-thailand-guide",
+},
             ].map((item) => (
               <a
                 key={item.title}
