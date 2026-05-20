@@ -82,9 +82,9 @@ export default function Home() {
                 url: "/app/viagra-thailand-guide",
               },
               {
-                title: "Bangkok Pharmacies",
-                url: "#",
-              },
+  title: "Bangkok Pharmacies",
+  url: "/app/bangkok-pharmacy-guide",
+},
               {
                 title: "Cialis Thailand",
                 url: "#",
