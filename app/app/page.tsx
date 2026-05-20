@@ -1,8 +1,8 @@
 export default function Home() {
   return (
     <main>
-      <h1>Best Price Sildenafil Thailand</h1>
-      <p>Homepage working.</p>
+      <h1>Guide Home</h1>
+      <p>Homepage is working.</p>
     </main>
   );
 }
