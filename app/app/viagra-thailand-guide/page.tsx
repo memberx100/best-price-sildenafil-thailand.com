@@ -1,163 +1,93 @@
-export default function Home() {
+export default function ViagraThailandGuide() {
   return (
     <main
       style={{
         minHeight: "100vh",
         background:
-          "linear-gradient(135deg, #07111f 0%, #0f172a 50%, #1e293b 100%)",
+          "linear-gradient(135deg,#07111f,#0f172a,#1e293b)",
         color: "white",
-        fontFamily: "Arial, sans-serif",
         padding: "80px 24px",
+        fontFamily: "Arial,sans-serif",
       }}
     >
-      <div
+      <article
         style={{
-          maxWidth: "1200px",
+          maxWidth: "900px",
           margin: "0 auto",
+          background: "rgba(255,255,255,0.06)",
+          border: "1px solid rgba(255,255,255,0.1)",
+          borderRadius: "32px",
+          padding: "60px",
         }}
       >
-        <div
+        <h1
           style={{
-            backdropFilter: "blur(20px)",
-            background: "rgba(255,255,255,0.08)",
-            border: "1px solid rgba(255,255,255,0.12)",
-            borderRadius: "32px",
-            padding: "60px",
-            boxShadow: "0 20px 80px rgba(0,0,0,0.4)",
+            fontSize: "54px",
+            marginBottom: "24px",
           }}
         >
-          <span
-            style={{
-              display: "inline-block",
-              padding: "10px 18px",
-              borderRadius: "999px",
-              background: "rgba(56,189,248,0.15)",
-              border: "1px solid rgba(56,189,248,0.25)",
-              marginBottom: "24px",
-              color: "#bae6fd",
-              fontSize: "14px",
-              fontWeight: "bold",
-            }}
-          >
-            Thailand ED Medication Guide
-          </span>
+          Viagra in Thailand: What Tourists and Expats Should Know
+        </h1>
 
-          <h1
-            style={{
-              fontSize: "72px",
-              lineHeight: 1,
-              margin: "0 0 24px",
-              letterSpacing: "-3px",
-              maxWidth: "900px",
-            }}
-          >
-            Buy Sildenafil, Viagra & Cialis in Thailand
-          </h1>
+        <p
+          style={{
+            color: "#cbd5e1",
+            lineHeight: 1.9,
+            fontSize: "20px",
+          }}
+        >
+          Thailand is one of the most searched destinations in Asia
+          for sildenafil, Viagra, Sidegra, Cialis and ED medication
+          information among tourists and expats.
+        </p>
 
-          <p
-            style={{
-              fontSize: "22px",
-              lineHeight: 1.6,
-              color: "#cbd5e1",
-              maxWidth: "850px",
-              marginBottom: "40px",
-            }}
-          >
-            A premium English guide covering sildenafil, Viagra, Sidegra,
-            Cialis, pricing, Bangkok pharmacies, Pattaya delivery options,
-            Phuket access, and common long-tail questions around ED medication
-            in Thailand.
-          </p>
+        <h2 style={{ marginTop: "40px" }}>
+          Viagra vs Sildenafil vs Sidegra
+        </h2>
 
-          <div
-            style={{
-              display: "flex",
-              gap: "16px",
-              flexWrap: "wrap",
-              marginBottom: "50px",
-            }}
-          >
-            <a
-              href="https://best-price-sildenafil-thailand.com"
-              style={{
-                background:
-                  "linear-gradient(135deg,#38bdf8,#8b5cf6)",
-                padding: "16px 28px",
-                borderRadius: "999px",
-                color: "white",
-                textDecoration: "none",
-                fontWeight: "bold",
-                boxShadow: "0 10px 40px rgba(56,189,248,0.3)",
-              }}
-            >
-              Compare Prices
-            </a>
+        <p
+          style={{
+            color: "#cbd5e1",
+            lineHeight: 1.9,
+          }}
+        >
+          Viagra is the original sildenafil brand while sildenafil
+          itself is the active ingredient. Sidegra is a commonly
+          searched sildenafil product in Thailand.
+        </p>
 
-            <a
-              href="#guides"
-              style={{
-                background: "rgba(255,255,255,0.08)",
-                border: "1px solid rgba(255,255,255,0.12)",
-                padding: "16px 28px",
-                borderRadius: "999px",
-                color: "white",
-                textDecoration: "none",
-                fontWeight: "bold",
-              }}
-            >
-              Explore Guides
-            </a>
-          </div>
+        <h2 style={{ marginTop: "40px" }}>
+          Important Safety Information
+        </h2>
 
-          <div
-            id="guides"
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fit,minmax(260px,1fr))",
-              gap: "20px",
-            }}
-          >
-            {[
-              "Viagra Thailand",
-              "Sildenafil / Sidegra",
-              "Cialis Thailand",
-              "Bangkok Pharmacies",
-              "Pattaya Guide",
-              "Phuket Delivery",
-            ].map((item) => (
-              <div
-                key={item}
-                style={{
-                  background: "rgba(255,255,255,0.06)",
-                  border: "1px solid rgba(255,255,255,0.1)",
-                  borderRadius: "24px",
-                  padding: "28px",
-                  backdropFilter: "blur(12px)",
-                }}
-              >
-                <h3
-                  style={{
-                    margin: "0 0 12px",
-                    fontSize: "24px",
-                  }}
-                >
-                  {item}
-                </h3>
+        <p
+          style={{
+            color: "#cbd5e1",
+            lineHeight: 1.9,
+          }}
+        >
+          ED medication may interact with heart medication,
+          nitrate drugs and blood pressure treatment.
+          Always consult a healthcare professional before use.
+        </p>
 
-                <p
-                  style={{
-                    color: "#cbd5e1",
-                    lineHeight: 1.7,
-                  }}
-                >
-                  SEO-focused informational content and FAQ structure for
-                  Thailand medication searches.
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
+        <a
+          href="https://best-price-sildenafil-thailand.com/category/sildenafil/"
+          style={{
+            display: "inline-block",
+            marginTop: "40px",
+            padding: "16px 28px",
+            borderRadius: "999px",
+            background:
+              "linear-gradient(135deg,#38bdf8,#8b5cf6)",
+            color: "white",
+            textDecoration: "none",
+            fontWeight: "bold",
+          }}
+        >
+          Compare Sildenafil Prices
+        </a>
+      </article>
     </main>
   );
 }
